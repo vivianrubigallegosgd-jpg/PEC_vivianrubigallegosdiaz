@@ -1,0 +1,254 @@
+/*color de fondo */
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f7efe6;
+    color: #333;
+}
+/*imagen de fondo con escrito*/
+body{
+    background-image: url("pastel2.jpg");
+  }
+
+
+/*imagen de lados*/
+section {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 30px;
+}
+
+section img {
+    width: 50%;
+    border-radius: 8px;
+}
+
+section div {
+    width: 50%;
+}
+
+section h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+section p {
+    margin-bottom: 25px;
+}
+
+
+.contenido {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.informacion {
+    width: 55%;
+}
+
+.imagen {
+    width: 45%;
+    text-align: center;
+}
+
+.imagen img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 15px;
+}
+
+/*imagen de lados 2*/
+section {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 30px;
+}
+
+section img {
+    width: 50%;
+    border-radius: 8px;
+}
+
+section div {
+    width: 50%;
+}
+
+section h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+section p {
+    margin-bottom: 25px;
+}
+
+
+
+
+/*animacio*/
+
+section {
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+section h2 {
+    color: #8B6AAE;
+}
+
+section p {
+    color: #555;
+}
+
+button {
+    background-color: #DCC6F2;
+    color: #5D426B;
+    border: none;
+    padding: 12px 20px;
+    margin: 8px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #F8C8DC;
+}
+
+
+
+
+/* espacios para la pagina*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FONDO Y LETRA */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff8f5;
+    color: #444;
+}
+
+/* ENCABEZADO */
+header {
+    background-color: #e8d5f5;
+    padding: 30px;
+    text-align: center;
+    color: #65456f;
+}
+
+/* titulo */
+h1 {
+    font-size: 30px;
+}
+
+/* CADA SECCIÓN */
+section {
+    width: 85%;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px #ddd;
+    
+    /* ANIMACIÓN */
+    animation: aparecer 1s ease;
+}
+
+/* imagenes del cuadro */
+section img {
+    border-radius: 15px;
+    margin: 10px;
+}
+
+/* los titulos */
+h2 {
+    color: #9b6aad;
+    margin-bottom: 15px;
+}
+
+/* parrafos */
+p {
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+/* botones de la pagina*/
+button {
+    background-color: #e8c8e8;
+    color: #65456f;
+    border: none;
+    padding: 12px 18px;
+    margin: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+/* movimiento al pasar elmause*/
+button:hover {
+    background-color: #d9add9;
+    transform: scale(1.08);
+}
+
+/* animacion de la entrada */
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* animacion del encabezado */
+header {
+    animation: bajar 1s ease;
+}
+
+@keyframes bajar {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* boton de regreso */
+.inicio {
+    text-align: center;
+    margin: 30px;
+}
+
+.inicio a {
+    background-color: #e8d5f5;
+    color: #65456f;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+
+    /* animacion */
+    transition: 0.3s;
+}
+
+/* movimiento al pasar el mause */
+.inicio a:hover {
+    background-color: #d9add9;
+    transform: scale(1.1);
+    display: inline-block;
+}

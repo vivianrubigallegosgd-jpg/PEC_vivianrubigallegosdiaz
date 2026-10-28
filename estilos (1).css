@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #FFF8F0;
+    color: #333;
+}
+
+/* encabezado*/
+
+header {
+    background-color: #DCC6F2;
+    padding: 25px;
+    text-align: center;
+
+    /* animacion*/
+    animation: aparecer 1s ease;
+}
+
+header h1 {
+    color: #5D426B;
+    font-size: 32px;
+    margin-bottom: 20px;
+
+    /* animacion*/
+    transition: 0.3s;
+}
+
+header h1:hover {
+    transform: scale(1.03);
+}
+
+/* menu*/
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #684C78;
+    text-decoration: none;
+    font-weight: bold;
+
+    /* Animación */
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #C77DAB;
+    transform: translateY(-3px);
+    display: inline-block;
+}
+
+/* contenido */
+
+main {
+    width: 70%;
+    float: left;
+    padding: 25px;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+
+    /* detalles bonitos */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+
+    /* animacion */
+    animation: subir 1s ease;
+    transition: 0.3s;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.12);
+}
+
+section h2 {
+    color: #8B6AAE;
+    margin-bottom: 10px;
+}
+
+/* barra lateral*/
+
+aside {
+    width: 30%;
+    float: right;
+    background-color: #F8D7E5;
+    padding: 25px;
+
+    /* detalles bonitos */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+
+    /* animacion */
+    animation: aparecer 1.3s ease;
+    transition: 0.3s;
+}
+
+aside:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.12);
+}
+
+aside h3 {
+    color: #8C5975;
+    margin-bottom: 10px;
+}
+
+/* pie de pagina */
+
+footer {
+    clear: both;
+    background-color: #C9EAF5;
+    color: #4D6570;
+    text-align: center;
+    padding: 15px;
+
+    /* animacion */
+    animation: subir 1.5s ease;
+}
+
+/*imagen de fondo con escrito*/
+body{
+    background-image: url("fondo.avif");
+  }
